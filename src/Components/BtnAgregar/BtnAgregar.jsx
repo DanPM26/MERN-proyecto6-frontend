@@ -1,11 +1,11 @@
-import React,{useContext,useEffect} from 'react';
-import { CartContext } from '../../Context/CartContext';
+import React from 'react';
+//import { CartContext } from '../../Context/CartContext';
 import {Button} from 'react-bootstrap';
-import axios from 'axios'
+//import axios from 'axios'
 
 const BtnAgregar = () => {
-const {cart, setCart} = useContext(CartContext)
-const url4 = 'http://localhost:4000/cart/v3/cart'
+//const {cart, setCart} = useContext(CartContext)
+//const url4 = 'http://localhost:4000/cart/v3/cart'
 
       const getItem = data =>{
     console.log('aqui esta la petición')
